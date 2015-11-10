@@ -1,0 +1,1 @@
+Helped modify and update a pre-existing WordPress template
