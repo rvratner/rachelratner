@@ -1,56 +1,93 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  line-height: 20px;
-  font-size: 15px;
+html, body, #app {
+  height: 100%;
 }
-
 body {
   font-family: Helvetica, sans-serif;
 }
-h1, h2, h3, h4, h5 {
-  font-family: Futura, sans-serif;
-}
+
 h2{
+  font-family: Futura, sans-serif;
   text-transform: uppercase;
+  margin: 0.5rem auto;
 }
+
+p, h3{
+  white-space: initial;
+  max-width: 700px;
+  margin: 0.4rem auto;
+}
+
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+a, a:visited, a:active{
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .slides {
   display: block;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-align: center;
+  position: relative;
 }
+
 .slide {
   display: none;
 }
 .slide.slide--active {
   display: block;
 }
+
 .slides img { 
-  height: 36rem;  
+  max-height: 25rem;
+  margin-top: 15px;
+  max-width: 100%;
 }
+
+.bgImage{
+  width: 90%;
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
 .toggle {
-  background: blue;
-  color: white;
   display: block;
   padding: 20px;
   position: absolute;
-  top: 50%;
+  top: 45%;
+  background-image:url('../images/arrows.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  width: 10px;
+  height: 40px;
+  background-color: rgba(255,255,255,0.7);
 }
 .toggle-prev {
-  left: 0;
+  left: 5px;
+  background-position: 0px 0px;
 }
 .toggle--next {
-  right: 0;
+  right: 5px;
+  background-position: -50px 0px;
 }
 .pagination {
   margin: 20px;
   text-align: center;
 }
 .pager {
-  background-color: red;
+  background-color: aquamarine;
   display: inline-block;
   height: 20px;
   margin: 10px;
@@ -58,4 +95,5 @@ h2{
   text-indent: -9000px;
   white-space: nowrap;
   width: 20px;
+  border-radius: 15px;
 }

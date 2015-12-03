@@ -8,22 +8,21 @@ var data = [
     imageAlt   : "Starbuck",
     title      : "Rachel Ratner",
     subtitle   : "Web Developer & Design Technologist",
-    text       : "2015 Amazon Portfolio"
   },
   {
     id         : "slide2",
     imagePath  : "images/code.jpg",
     imageAlt   : "Skills",
     title      : "Skills",
-    subtitle   : "I'm a web development engineer and design technologist from Seattle, WA. I have 4 years experience building scalable mobile-first web apps, rapidly prototyping ideas and architecting solutions.",
-    text       : "My core competencies include HTML, CSS and JavaScript (including ECMA 6, React, Angular, Node), PHP, Perl and Java."
+    subtitle   : "Building scalable mobile-first web apps",
+    text       : "Core competencies: HTML, CSS and JavaScript (including ECMA 6, React, Angular, Node), PHP, Perl and Java."
   },
    {
     id         : "slide3",
-    imagePath  : "images/seattlebandmap.png",
+    imagePath  : "images/NirvanaMap.jpg",
     title      : "Seattle Band Map",
     subtitle   : "Music history art project and crowd-sourced website",
-    text       : "Published in Wired Magazine, and on display at Nordstroms, EMP and Sea-Tac Airport. Since 2011, number of bands increased from 300 to 10,000",
+    text       : "Published in Wired Magazine, and on display at Nordstroms, EMP and Sea-Tac Airport. Since 2011, the number of bands increased from 300 to 10,000.",
     action     : "View project",
     actionHref : "http://www.seattlebandmap.com"
   },
@@ -32,7 +31,7 @@ var data = [
     imagePath  : "images/freelance.jpg",
     title      : "Background",
     subtitle   : "Freelance and Agency Work",
-    text       : "Worked at a variety of agencies including Cole & Webber, Plexi Pixel and BKWLD",
+    text       : "Worked at a variety of agencies including Cole & Webber, Plexi Pixel and BKWLD. Built custom webpages, Facebook Apps, Wordpress sites and an interactive meme generator",
     action     : "View projects",
     actionHref : "http://www.rachelratner.com"
   },
@@ -41,16 +40,16 @@ var data = [
     imagePath  : "images/pokemon.png",
     title      : "Agency Work: Pokemon",
     subtitle   : "Finding flexibility within inflexibility",
-    text       : "Contracted with Plexipixel to build a localized animation-heavy site based on story boards. The result was a backwards compatable exprience with imrpoved latency and smooth transitions",
+    text       : "Contracted with Plexipixel to build a localized animation-heavy site based on story boards. The result was a backwards compatable exprience with imrpoved latency and smooth transitions.",
      action     : "View project",
     actionHref : "http://www.rachelratner.com/works/pokemon/"
   },
    {
     id         : "slide6",
-    imagePath  : "images/sprintdistrict.jpg",
+    imagePath  : "images/springdistrict.png",
     title      : "Agency Work: The Spring District",
     subtitle   : "Meeting Customer Expectations in an unexpected way",
-    text       : "Contracted with Hey, Advertising to rebuild an interactive map for newly developing Spring District in Bellevue Washington. Though they had intended for me to build it in Adobe Edge in a few hours, I rebuilt the expreince from scratch, improving latency and providng a more responsive design, while still reamining in the alloted budget",
+    text       : "Contracted with Hey, Advertising to improve latency on an interactive map.  I rebuilt the expreince from scratch, improving latency and providng a more responsive design, while still reamining in the alloted budget.",
     action     : "View project",
     actionHref : "http://www.rachelratner.com/works/the-spring-district/"
   },
@@ -59,44 +58,42 @@ var data = [
     imagePath  : "images/starbucks.png",
     title      : "Amazon",
     subtitle   : "Custom Campaigns, Products & Prototypes",
-    text       : "Worked at a variety of agencies including Cole & Webber, Plexi Pixel and BKWLD",
-     action     : "View projects",
-    actionHref : "http://www.rachelratner.com"
+    text       : "Spent the past two years as a Design Technologist on the Advertising, Display and User Experience Team."
   },
    {
     id         : "slide8",
-    imagePath  : "images/freelance.jpg",
-    title      : "Amazon: Kindle Landing Pages",
-    subtitle   : "Freelance and Agency Wrk",
-    text       : "Worked at a variety of agencies including Cole & Webber, Plexi Pixel and BKWLD"
+    imagePath  : "images/premium.png",
+    title      : "Amazon: Custom Landing Pages",
+    subtitle   : "Custom Campaigns",
+    text       : "Translated PSDs indo custom landing pages for desktop, Kindle and mobile devices. Utilized AUI, Shazam, React.js, Handlebar.js, sass and gulp to create lightweight interactive experiences."
   },
    {
     id         : "slide9",
-    imagePath  : "images/freelance.jpg",
+    imagePath  : "images/interstitial.png",
     title      : "Amazon: Mobile Interstitials",
-    subtitle   : "Freelance and Agency Wrk",
-    text       : "Worked at a variety of agencies including Cole & Webber, Plexi Pixel and BKWLD"
+    subtitle   : "Scalable Products",
+    text       : "Built reusable, scalable mobile templates for in-app interstitials, including Amazon's first mobile video offering."
   },
    {
     id         : "slide10",
-    imagePath  : "images/freelance.jpg",
+    imagePath  : "images/Amazon-Echo.jpg",
     title      : "Amazon: Prototypes",
-    subtitle   : "Rapid iteration and future thinking",
-    text       : "Geolocation, Echo, Lambda, Accelerometer"
+    subtitle   : "Rapid iteration and cutting edge technology",
+    text       : "Prototyped campaign ideas for sales team to bring on client pitches, including integrating Geolocation and Acceleratometer on Kindle, encorporating the javascript Speech API on mobile devices, and engaging customers with Echo."
   },
    {
     id         : "slide11",
-    imagePath  : "images/freelance.jpg",
-    title      : "Amazon: Project ??",
-    subtitle   : "Embeded on secret 'Jeff' project",
-    text       : "Worked included Santana, Coral, Java, Selenium, Retail Website"
+    imagePath  : "images/Top-Secret-Icon.png",
+    title      : "Amazon: Corporate Project",
+    subtitle   : "Learned Java and Perl while embeded on corportae project",
+    text       : "Built custom widgets for Retail Website in Mason/Perl, integrated with AUI, Coral, DynanoDB and Sanatana to build scalable customer experiences. Built integration and unit tests using Selenium."
   },
    {
     id         : "slide12",
-    imagePath  : "images/freelance.jpg",
+    imagePath  : "images/datastructures.jpg",
     title      : "What's next?",
-    subtitle   : "Improve Object Oriented programming, Data Structures and Algorithms, become more proficient in Java and other back-end technologies",
-    text       : "Worked at a variety of agencies including Cole & Webber, Plexi Pixel and BKWLD"
+    subtitle   : "Build on core engineering skillsets.",
+    text       : " Improve Object Oriented programming, Data Structures and Algorithms, become more proficient in Java and other back-end technologies"
   },
    {
     id         : "slide13",
@@ -118,7 +115,6 @@ var state = {
 // State transitions
 var actions = {
   toggleNext: function() {
-    console.log("something worked");
     var current = state.currentSlide;
     var next = current + 1;
     if (next > state.data.length - 1) {
@@ -128,7 +124,6 @@ var actions = {
     render(state)
   },
   togglePrev: function() {
-    console.log("something worked");
     var current = state.currentSlide;
     var prev = current - 1;
     if (prev < 0) {
@@ -138,7 +133,6 @@ var actions = {
     render(state);
   },
   toggleSlide: function(id) {
-    console.log("something worked");
     var index = state.data.map(function (el) {
       return (
         el.id
@@ -155,7 +149,6 @@ var Slideshow = React.createClass({
     return (
       <div className="slideshow">
         <Slides data={this.props.data} />
-        <Pagination data={this.props.data} />
         <Controls />
       </div>
     );
@@ -186,9 +179,9 @@ var Slide = React.createClass({
 
     return (
       <div className={classes}>
-        <img src={this.props.imagePath} alt={this.props.imageAlt} />
         <h2>{this.props.title}</h2>
         <h3>{this.props.subtitle}</h3>
+        <img src={this.props.imagePath}/>
         <p>{this.props.text}</p>
         <a href={this.props.actionHref}>{this.props.action}</a>
       </div>
@@ -206,38 +199,38 @@ var Controls = React.createClass({
   render: function() {
     return (
       <div className="controls">
-        <div className="toggle toggle--prev" onClick={this.togglePrev}>Prev</div>
-        <div className="toggle toggle--next" onClick={this.toggleNext}>Next</div>
+        <div className="toggle toggle--prev" onClick={this.togglePrev}></div>
+        <div className="toggle toggle--next" onClick={this.toggleNext}></div>
       </div>
     );
   }
 });
 
-var Pagination = React.createClass({
-  render: function() {
-    var paginationNodes = this.props.data.map(function (paginationNode, index) {
-      return (
-        <Pager id={paginationNode.id} key={paginationNode.id} title={paginationNode.title}  />
-      );
-    });
-    return (
-      <div className="pagination">
-        {paginationNodes}
-      </div>
-    );
-  }
-});
+// var Pagination = React.createClass({
+//   render: function() {
+//     var paginationNodes = this.props.data.map(function (paginationNode, index) {
+//       return (
+//         <Pager id={paginationNode.id} key={paginationNode.id} title={paginationNode.title}  />
+//       );
+//     });
+//     return (
+//       <div className="pagination">
+//         {paginationNodes}
+//       </div>
+//     );
+//   }
+// });
 
-var Pager = React.createClass({
-  toggleSlide: function() {
-    actions.toggleSlide(this.props.id);
-  },
-  render: function() {
-    return (
-      <span className="pager" onClick={this.toggleSlide}>{this.props.title}</span>
-    );
-  }
-});
+// var Pager = React.createClass({
+//   toggleSlide: function() {
+//     actions.toggleSlide(this.props.id);
+//   },
+//   render: function() {
+//     return (
+//       <span className="pager" onClick={this.toggleSlide}>{this.props.title}</span>
+//     );
+//   }
+// });
 
 var EmptyMessage = React.createClass({
   render: function() {
